@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  margin: 75px;
+  justify-content: center;
+  text-align: center;
+  background-color: darkblue;
+  font-family: serif;
+  height: 500px;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-bottom: 4px #000 solid;
+    margin-bottom: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+h1{
+    font-size: 2.5rem;
+}
+
+button {
+  margin: 0.625rem;
+  width: 15rem;
+  height: 2.5rem;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  color: rgb(255, 253, 251);
+  background-color: deeppink;
+  border: none;
+  outline: none;
+  border-radius: 1.125rem;
+  --surface: #000080;
+  --background: #00ffff;
+  --color: #0000a0;
+  --focus-background: #000000;
+  --focus-color: #ffff00;
+}
+.div1 {
+  padding: 10px;
+  font-size: 1.55rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 8px;
+  width: 240px;
+  height: 240px;
+  color: red;
+  border-radius: 100%;
+  text-align: center;    
+  border: 4px solid #222;
+  box-shadow: inset 0px 16px #999, inset 0px 16px 1px 1px #999;
+  -moz-box-shadow: inset 0px 16px #999, inset 0px 16px 1px 1px #999;
+}
+
+#para1{
+   margin: 65px;
+}
+
+#div2 > span{
+    display: flex;
+    margin: 2rem;
+    font-size: 1.5rem;
+    text-align: centert;
+}
+li{
+    font-size: 1.25rem;
+    color: rgb(255, 253, 251);
+    /* text-align: left; */
+    display: flex;
+    justify-content: center;
+}

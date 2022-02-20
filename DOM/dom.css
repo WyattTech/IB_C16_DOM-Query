@@ -4,52 +4,82 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(43, 93, 185);
   margin: 50px;
-  height: 100mw;
-}
-#container {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
+  text-align: center;
+  background-color: darkblue;
+  font-family: serif;
+  height: 800px;
+}
+
+#container {
+  position: sticky;
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
   align-items: center;
-  height: 100px;
-  padding: 10px;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-bottom: 4px #000 solid;
+  margin-bottom: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 {
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-  background-color: limegreen;
-  color: rgb(245, 245, 250);
-  font-family: "Trebuchet MS", sans-serif;
-}
-#div1 {
-  position: absolute;
-  display: flex;
-  align-self: center;
-  margin-top: 25rem;
-  background-color: black;
-  width: 200px;
-  height: 200px;
-  ;
+  font-size: 2.5rem;
+  margin: 20px;
+  padding: 10px;
 }
 
 button {
-  margin: 10px;
-  background-color: #0dce14; /* Green */
+  margin: 0.625rem;
+  width: 15rem;
+  height: 2.5rem;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  color: rgb(255, 253, 251);
+  background-color: deeppink;
   border: none;
-  color: rgb(245, 245, 250);
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  font-family: "Trebuchet MS", sans-serif;
+  outline: none;
+  border-radius: 1.125rem;
+}
+#div1 {
+  padding: 10px;
+  font-size: 1.55rem;
   font-weight: bold;
-  width: 100px;
-  height: 40px;
-  border-radius: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 8px;
+  width: 240px;
+  height: 240px;
+  color: red;
+
+  text-align: center;
+  border: 8px dotted rgb(235, 223, 65);
 }
 
-p{
-    font-size: 1.25rem;
+#para1 {
+  margin: 65px;
+}
+span {
+  display: flex;
+
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 253, 251);
+}
+ul {
+  column-rule: 1px solid lightblue;
+  display: flex;
+  flex-direction: column;
+}
+li {
+  font-size: 1.25rem;
+  color: rgb(255, 253, 251);
+  list-style: none;
+  justify-content: end;
+  flex-direction: row;
+  column-rule: 1px solid lightblue;
 }

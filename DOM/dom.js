@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
       return color;
     }
-    const newDiv = document.createElement("div");
+    const newDiv = document.getElementById("div1");
     const para = document.createElement("p");
     const paraText = document.createTextNode(
       " 'A day without sunshine is like, you know, night' ~ Steve Martin"
@@ -72,7 +72,8 @@ document.addEventListener("DOMContentLoaded", function () {
        let name = friends[i];
        const newLi = document.createElement("Li");
        newLi.innerText = name;
-       document.body.appendChild(newLi);
+       const listItems = document.getElementById('list');
+       listItems.appendChild(newLi);
       }
 
     });  
